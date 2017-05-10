@@ -1,0 +1,74 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\Andrew\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:preDebugBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72301Library
+:app:prepareComAndroidSupportSupportV42301Library
+:app:prepareComFacebookFbuiTextlayoutbuilderTextlayoutbuilder100Library
+:app:prepareComFacebookFrescoDrawee101Library
+:app:prepareComFacebookFrescoFbcore101Library
+:app:prepareComFacebookFrescoFresco101Library
+:app:prepareComFacebookFrescoImagepipeline101Library
+:app:prepareComFacebookFrescoImagepipelineBase101Library
+:app:prepareComFacebookFrescoImagepipelineOkhttp3101Library
+:app:prepareComFacebookReactReactNative0440Library
+:app:prepareComFacebookSoloaderSoloader010Library
+:app:prepareOrgWebkitAndroidJscR174650Library
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:bundleReleaseJsAndAssets
+Scanning 564 folders for symlinks in C:\Dev\Apps\Logbook\node_modules (15ms)
+Scanning 564 folders for symlinks in C:\Dev\Apps\Logbook\node_modules (15ms)
+Loading dependency graph, done.
+warning: the transform cache was reset.
+bundle: start
+bundle: finish
+bundle: Writing bundle output to: C:\Dev\Apps\Logbook\android\app\build\intermediates\assets\release\index.android.bundle
+bundle: Done writing bundle output
+bundle: Copying 5 asset files
+bundle: Done copying assets
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexForRelease
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1024 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 1536 MB.
+To do this set org.gradle.jvmargs=-Xmx1536M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:validateSigningRelease
+:app:packageRelease
+:app:assembleRelease
+
+BUILD SUCCESSFUL
+
+Total time: 39.172 secs

@@ -1,0 +1,1 @@
+C:\Users\Andrew\AppData\Local\Android\sdk\tools\emulator.exe @Nexus_S_API_23
